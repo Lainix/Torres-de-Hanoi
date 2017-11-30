@@ -20,10 +20,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hanoi")
 public class hanoiRestController {
 
-    //http://localhost:8080/hanoiController/jugsar/getSaludo.htm
-    @RequestMapping(value="getSaludo",method = RequestMethod.GET,produces="application/json")
+    //http://localhost:8080/TorresHanoi/hanoi/getEscore.htm
+    @RequestMapping(value="getEscore",method = RequestMethod.GET,produces="application/json")
     public @ResponseBody  String get(){
-        hanoi g=new hanoi(1,"");
+        hanoi g=new hanoi(1, 87);
         Gson g1=new Gson();
         
         return g1.toJson(g);

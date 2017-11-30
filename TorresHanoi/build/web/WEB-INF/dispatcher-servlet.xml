@@ -18,7 +18,7 @@
     <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
    
-    <mvc:view-controller path="/otro.htm" view-name="otro"/>
+    <mvc:view-controller path="/index2.htm" view-name="index2"/>
     
 
     <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>

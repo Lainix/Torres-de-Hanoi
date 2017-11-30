@@ -9,15 +9,52 @@ package bean;
  *
  * @author MEMO
  */
-public class hanoi { private final long id;
-    private final String content;
+public class hanoi { 
+    
+    private long idJugador;
+    private String movimientos;
+    private long escore;
 
-    public hanoi(long id, String content) {
-        this.id = id;
-        this.content = content;
+    public hanoi(){
+}
+
+    public hanoi(long idJugador,long escore) {
+        
+        
+        this.idJugador = idJugador;
+        this.movimientos=movimientos;
+        this.escore=escore;
+        
     }
 
-    public long getId() {
-        return id;
+    public long getIdJugador() {
+        return idJugador;
     }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(long id) {
+        this.idJugador = idJugador;
+    }
+
+    /**
+     * @return the jugador
+     */
+    
+    /**
+     * @return the escore
+     */
+    public long getEscore() {
+        return escore;
+    }
+
+    /**
+     * @param escore the escore to set
+     */
+    public void setEscore(long escore) {
+        this.escore = escore;
+    }
+    
+    
 }

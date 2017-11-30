@@ -1,7 +1,7 @@
 <%-- 
     Document   : otro
-    Created on : 06-jun-2016, 16:26:18
-    Author     : heltonsmith
+    Created on : 30/11/2017, 01:44:05 PM
+    Author     : MEMO
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Otra vista...</h1>
+        <h1>Hello World!</h1>
     </body>
 </html>
